@@ -1,0 +1,24 @@
+class Math {
+    init(n){
+        this.n = n;
+    }
+    square(){
+        return this.n * this.n;
+    }
+}
+
+
+var result = Math(3).square();
+print result;
+
+class Circle {
+    init(radius) {
+        this.radius = radius;
+    }
+    area() {
+        return (3.141592 * this.radius * this.radius);
+    }
+}
+
+var circle = Circle(2);
+print circle.area();

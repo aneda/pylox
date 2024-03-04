@@ -1,0 +1,14 @@
+fun add(a, b) {
+    print a + b;
+}
+
+add(1, 2); // expect 3
+
+
+fun sayHi(first, last) { 
+    print "Hi, " + first + " " + last + "!";
+}
+sayHi("Dear", "Reader"); // expect Hi Dear Reader!
+
+fun f0() { return 0; }
+print f0(); // expect: 0

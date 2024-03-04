@@ -1,0 +1,12 @@
+var a = "global a";
+
+    {
+        var a = "outer a";
+            {
+                var a = "inner a";
+                print a; // expect: inner a
+            }
+        print a; // expect: outer a
+    }
+
+print a; // expect: global a
